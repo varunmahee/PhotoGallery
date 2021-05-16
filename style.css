@@ -1,0 +1,54 @@
+.menu1 {
+    list-style-type: none;
+    font-family: cursive;
+
+    top: 0px;
+    right: 30px;
+/*    text-align: center;*/
+    cursor: pointer;
+    color: black;
+    font-size: 25px;
+    position:fixed;
+    margin: 0px;
+    padding:0;
+    
+}
+
+.links {
+    display: inline;
+    margin-right: 10px;
+    list-style: none;
+    float: left;
+}
+
+.homeimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+h2{
+  text-align: center;
+    font-size: 50px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding:0 4px;
+}
+
+.column {
+  flex: 50%;
+  padding: 0 4px;
+  text-align: center;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: white;
+}
+
+
